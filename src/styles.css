@@ -11,3 +11,7 @@
   font-family: "Cellotype";
   src: local("Cellotype"), url(./assets/fonts/Cellotype.ttf) format("truetype");
 }
+
+body {
+  background-image: url('assets/bg.png');
+}

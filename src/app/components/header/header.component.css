@@ -9,3 +9,12 @@
   font-size: 1.4rem;
   font-weight: 700;
 }
+
+.sep {
+  font-weight: bold;
+  color: #e8222b;
+}
+
+.link {
+  color: #294273;
+}
