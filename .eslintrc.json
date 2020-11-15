@@ -1,0 +1,46 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "root": true,
+  "extends": [
+    "airbnb-base",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "ignorePatterns": [
+    "**/*.spec.ts",
+    "**/*.d.ts",
+    "karma.conf.js",
+    "node_modules/",
+    "e2e",
+    "assets/"
+  ],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "class-methods-use-this": "off",
+    "no-useless-constructor": "off",
+    "camelcase": "off",
+    "@typescript-eslint/camelcase": "off",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+    "linebreak-style": ["error", "unix"]
+  }
+}
