@@ -15,6 +15,7 @@ import { BannerLinkComponent } from './components/banner-link/banner-link.compon
 import { FutebolBrasileiroComponent } from './pages/futebol-brasileiro/futebol-brasileiro.component';
 import { ConteudoFutebolComponent } from './components/conteudo-futebol/conteudo-futebol.component';
 import { NaoFutebolComponent } from './components/nao-futebol/nao-futebol.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { NaoFutebolComponent } from './components/nao-futebol/nao-futebol.compon
     FutebolBrasileiroComponent,
     ConteudoFutebolComponent,
     NaoFutebolComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
