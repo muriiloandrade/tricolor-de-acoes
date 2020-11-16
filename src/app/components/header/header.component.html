@@ -1,8 +1,10 @@
 <div class="row mt-5">
   <div class="col-12 text-center">
-    <h1 class="display-1 tricolor">Tricolor</h1>
-    <h3 class="text-bold text-uppercase acoes">de ações</h3>
-    <div class="mt-5 d-flex justify-content-between text-center">
+    <div [routerLink]="['/']">
+      <h1 class="display-1 tricolor">Tricolor</h1>
+      <h3 class="text-bold text-uppercase acoes">de ações</h3>
+    </div>
+    <div class="mt-5 mb-3 d-flex justify-content-between text-center">
       <div class="text-left">
         <a
           [routerLink]="['/acoes-do-bahia']"
@@ -12,8 +14,10 @@
       </div>
       <span class="sep h5">|</span>
       <div class="text-right">
-        <a [routerLink]="['']" class="h3 link text-decoration-none text-uppercase"
-          >Futebol Brasileiro</a
+        <a
+          [routerLink]="['/futebol-brasileiro']"
+          class="h3 link text-decoration-none text-uppercase"
+          >Não é só futebol</a
         >
       </div>
     </div>

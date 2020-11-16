@@ -13,6 +13,8 @@ import { AcoesDoBahiaComponent } from './components/acoes/acoes.component';
 import { ConteudoAcoesComponent } from './components/conteudo-acoes/conteudo-acoes.component';
 import { BannerLinkComponent } from './components/banner-link/banner-link.component';
 import { FutebolBrasileiroComponent } from './pages/futebol-brasileiro/futebol-brasileiro.component';
+import { ConteudoFutebolComponent } from './components/conteudo-futebol/conteudo-futebol.component';
+import { NaoFutebolComponent } from './components/nao-futebol/nao-futebol.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { FutebolBrasileiroComponent } from './pages/futebol-brasileiro/futebol-b
     ConteudoAcoesComponent,
     BannerLinkComponent,
     FutebolBrasileiroComponent,
+    ConteudoFutebolComponent,
+    NaoFutebolComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
