@@ -16,6 +16,7 @@ import { FutebolBrasileiroComponent } from './pages/futebol-brasileiro/futebol-b
 import { ConteudoFutebolComponent } from './components/conteudo-futebol/conteudo-futebol.component';
 import { NaoFutebolComponent } from './components/nao-futebol/nao-futebol.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FotoEquipeComponent } from './components/foto-equipe/foto-equipe.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ConteudoFutebolComponent,
     NaoFutebolComponent,
     FooterComponent,
+    FotoEquipeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
