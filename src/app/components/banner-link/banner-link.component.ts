@@ -9,6 +9,7 @@ export class BannerLinkComponent implements OnInit {
   @Input() link: string;
   @Input() src: string;
   @Input() alt: string;
+  @Input() credit?: string;
 
   constructor() {}
 
