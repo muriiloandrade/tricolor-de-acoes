@@ -64,8 +64,17 @@
 </p>
 
 <!-- Imagem nº 24 -->
+<div class="offset-2 col-8">
+  <ngb-carousel *ngIf="imagens">
+    <ng-template ngbSlide *ngFor="let img of imagens">
+      <div class="picsum-img-wrapper">
+        <img [src]="img.src" [alt]="img.alt" class="d-block w-100" />
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
 
-<p class="text-justify blue">
+<p class="mt-3 text-justify blue">
   A movimentação dos clubes nacionais é cada vez maior para campanhas e causas sociais
   como estas. O Bahia, apesar de não ter sido o primeiro na luta, é o que mais se engaja,
   mais lança ações e toma atitudes na atualidade, influenciando de maneira muito positiva

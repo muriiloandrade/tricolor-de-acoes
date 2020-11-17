@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RootComponent } from './pages/root/root.component';
@@ -36,7 +37,7 @@ import { FotoEquipeComponent } from './components/foto-equipe/foto-equipe.compon
     FooterComponent,
     FotoEquipeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, NgbCarouselModule],
   providers: [],
   bootstrap: [AppComponent],
 })
